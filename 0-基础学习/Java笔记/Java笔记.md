@@ -2494,11 +2494,11 @@ public class Test {
         System.out.println("map中是否包含value为12323? = " + map.containsValue(12323));
 
         Map<String,Integer> map2 = new HashMap<>();
-        map.put("lili", 10101010);  //打印输出null
-        map.put("nana",12345234);
-        map.put("feifei",34563465);
-        map.put("lili", 34565677);  //打印输出10101010
-        map.put("mingming",12323);
+        map2.put("lili", 10101010);  //打印输出null
+        map2.put("nana",12345234);
+        map2.put("feifei",34563465);
+        map2.put("lili", 34565677);  //打印输出10101010
+        map2.put("mingming",12323);
         System.out.println(map==map2);  //输出false   判断地址
         System.out.println(map.equals(map2));//输出true equals进行了重写，比较的是集合中的值是否一致
         System.out.println("判断是否为空："+map.isEmpty());
@@ -2526,6 +2526,13 @@ public class Test {
         Set<Map.Entry<String, Integer>> entries = map.entrySet();
         for(Map.Entry<String, Integer> e:entries){
             System.out.println(e.getKey()+"----"+e.getValue());
+        }
+        System.out.println("-----------------------------------");
+        //Iterator
+        Iterator<Map.Entry<String, Integer>> it=map.entrySet().iterator();
+        while(it.hasNext()){
+             Map.Entry<String, Integer> entry=it.next();
+             System.out.println("键key ："+entry.getKey()+" value ："+entry.getValue());
         }
     }
 }
