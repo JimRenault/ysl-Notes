@@ -32,29 +32,29 @@ Github 地址：https://github.com/JimRenault/ysl-Notes
 
 ## 三、运维开发
 
-### Docker
+Docker
 
 ​	[Docker笔记](3-运维开发\docker\Docker笔记.md)
 
 ​	[Windows打包springboot成Docker镜像并上传到阿里云](3-运维开发\docker\Windows打包springboot成Docker镜像并上传到阿里云.md)
 
-### K8S
+K8S
 
 ​	[K8S集群搭建步骤](3-运维开发\k8s\K8S集群搭建步骤.md)
 
 ​	[K8S知识总结](3-运维开发\k8s\K8S知识总结.md)
 
-### Linux
+Linux
 
 ​	[Linux笔记](3-运维开发\Linux\Linux笔记.md)
 
-### vmware
+vmware
 
 ​	[VMware_Centos7](3-运维开发\VMware\VMware_Centos7.md)
 
 ​	[VMware_Ubuntu20.04](3-运维开发\VMware\VMware_Ubuntu20.04.md)
 
-### zabbix
+zabbix
 
 ​	[zabbix笔记](3-运维开发\zabbix\zabbix笔记.md)
 

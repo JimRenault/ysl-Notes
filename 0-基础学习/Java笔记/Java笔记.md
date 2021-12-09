@@ -1566,7 +1566,7 @@ public class Test {
 ```java
 //【1】String---》不可变
 String a = "abc";
-a = "abcdef";	// 在地址不变的情况下，想把"abc"变成"abcdef"是不可能的
+a = "abcdef"; //在地址不变的情况下，想把"abc"变成"abcdef"是不可能的，因为String增加长度会重新创建String
 //【2】StringBuilder---》可变
 可变，在StringBuilder这个对象的地址不变的情况下，想把“abc”变成“abcdef”是可能的，直接追加即可
 StringBuilder sb = new StringBuilder();
